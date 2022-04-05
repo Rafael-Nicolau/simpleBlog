@@ -1,0 +1,1 @@
+So this is version 1.0.0 of a really simple blog, still need to do img support, the compose page with better writing options (would love to integrate the wordpress posting tool here, but in a more vanilla way), options to delete posts, manage, authenticate... etc..
