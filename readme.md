@@ -1,4 +1,4 @@
-So this is version 1.0.0 of a really simple journal, it has mongoDB, express, EJS and node, with post and delete funcions
+So this is version 2.0.0 of a really simple journal, it has mongoDB, express, EJS and node, with post and delete funcions
 
 Click on compose to make a new entry
 
