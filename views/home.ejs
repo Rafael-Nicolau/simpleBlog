@@ -3,11 +3,12 @@
 <h1>Home</h1>
 
 <p><%= homeStartingContent %></p>
+<p>You can go to /compose to create a new entry.</p>
 <hr>
 
 <% posts.forEach((element) => { %>
-    <a href="/posts/<%=element.title%>" style="text-decoration: none; color: black;"><h2><%= element.title %></h2></a>
-    <p><%= element.post.substring(0, 100)+"... " %> <a href="/posts/<%=element.title%>">(read more)</a> </p>
+    <a href="/posts/<%=element._id%>" style="text-decoration: none; color: black;"><h2><%= element.title %></h2></a>
+    <p><%= element.content.substring(0, 100)+"... " %> <a href="/posts/<%=element._id%>">(read more)</a> </p>
 <% }); %>
 
 <%- include("partials/footer"); -%>

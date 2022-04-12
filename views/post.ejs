@@ -1,6 +1,12 @@
 <%- include("partials/header"); -%>
 
-<h1><%= title%></h1>
+<h1><%= title %></h1>
 <p><%= post %></p>
+
+<form action="/delete" method="post">
+    <button type="submit" name=id value="<%=id%>" onclick="if (!confirm('Are you sure? There is no turning back...'))
+    { return false }">
+    Delete this post</button>
+</form>
 
 <%- include("partials/footer"); -%>
