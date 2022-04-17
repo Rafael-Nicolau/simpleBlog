@@ -7,3 +7,7 @@ Click on compose to make a new entry
 and click the Delete this post button inside each post to delete it:
 
 ![image](https://user-images.githubusercontent.com/24259502/162980875-b09f7691-12d9-4b48-887e-06139f3133c7.png)
+
+DB example:
+
+![image](https://user-images.githubusercontent.com/24259502/163720967-2c7b6712-0a23-466a-b299-34999299ad70.png)
